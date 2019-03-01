@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\Right Arrow1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Engine\Engine.csproj">
+      <Project>{d3d50a18-d858-44e6-8255-dc29e9c7d7a5}</Project>
+      <Name>Engine</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

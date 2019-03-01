@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-	class Player
+	public class Player
 	{
+        public string Name;
+        public Location currentLocation;
+        public int SanityLevel;
+
 
 	}
 }
